@@ -1,0 +1,39 @@
+@media screen and (min-width: 1px) and (max-width: 425px) {
+  .banner {
+    font-size: 12px;
+    padding: 4rem 0;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 899px) {
+  .banner {
+    font-size: 16px;
+    padding: 6rem 0;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1440px) {
+  .banner {
+    font-size: 24px;
+    padding: 12rem 4rem;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .banner {
+    font-size: 28px;
+    padding: 12rem 4rem;
+  }
+}
+
+.banner {
+  background-image: url("../../images/background.png");
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+}
+
+.banner p {
+  font-size: 1.2rem;
+}
+.banner h2 {
+  font-size: 1.9rem;
+}

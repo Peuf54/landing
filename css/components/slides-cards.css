@@ -1,0 +1,31 @@
+.slides-cards {
+  width: 250px;
+
+  border: 1px solid rgba(175, 175, 175, .5);
+  box-shadow: 0 0 10px rgba(175, 175, 175, .5);
+
+  padding: 20px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.slides-cards img {
+  object-fit: cover;
+}
+.slides-cards p {
+  color: rgba(150, 150, 150, 1);
+}
+
+@media screen and (min-width: 1px) and (max-width: 425px) {
+  .slides-cards {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 949px) {
+  .slides-cards {
+    width: 400px;
+    margin-bottom: 30px;
+  }
+}
